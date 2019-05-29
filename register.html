@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Logo</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="#cadastro">Cadastro</a></li>
+    </ul>
+
+    <div class="register-form">
+        <label for="nome"><b>Nome</b></label>
+        <input type="text" name="nome" required>
+        <br />
+        <br />
+        <label for="email"><b>Email</b></label>
+        <input type="text" name="email" required>
+        <br />
+        <br />
+        <label for="idade"><b>Idade</b></label>
+        <input type="text" name="idade" required>
+        <br />
+        <br />
+        <input type="file" name="foto" multiple>
+        <br />
+        <br />
+        <input type="submit" id="btn" onclick="updateForm()">
+    </div>
+
+
+</body>
+
+</html>
